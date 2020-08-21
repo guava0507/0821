@@ -125,7 +125,7 @@ Route::get('/', "HomeController@index");
 
 3.3 編輯 resources\views\home\index.blade.php
     $lines那行改成:
-
+    
     <div>{!! $lines !!}</div>
 
     <Note>
